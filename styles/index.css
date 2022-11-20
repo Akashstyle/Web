@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+.container{
+    margin:10px 100px 10px 100px;
+    padding: 20px;
+    background-color:black;
+}
+body{
+    color:skyblue;
+}
+#introduction{
+    text-align: center;
+}
+li{
+    text-align:left;
+    
+}
+#line-1{
+   border-top: 5px dotted;
+}
+#line-2{
+    border-top: 5px dotted;
+}
+#line-3{
+    border-top: 5px dotted;
+}
+#Hobbies{
+    text-align: center;
+}
+#Favourites{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;font-size: 30px;
+}
+h3{
+    text-decoration: underline;font-size:30px;
+}
+h4{
+    text-decoration:underline ;font-size: 30px;
+}
+h5{
+    text-decoration: underline;font-size: 30px;
+} 
+img{
+    height:500px ;
+    font-weight: 500px;
+}
+#link-1{
+    color: blue;font-size: 20px;
+}
+#link-2{
+    color: blue;font-size:20px ;
+}
