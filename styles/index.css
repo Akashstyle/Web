@@ -31,7 +31,7 @@ li{
 }
 #line-2{
     border-top: 5px dotted;
-    width: 1265px;
+    width: 1170px;
     margin-left: 103px;
     
 }
@@ -58,7 +58,7 @@ h5{
 } 
 img{
     height:500px ;
-    font-weight: 500px;
+    width: 400px;
 }
 #link-1{
     color: blue;font-size: 20px;
