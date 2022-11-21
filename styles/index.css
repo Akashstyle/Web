@@ -3,66 +3,48 @@
     padding:0;
     box-sizing:border-box ;
 }
-.container{
-    margin:10px 100px 10px 100px;
-    padding: 20px;
-    background-color:skyblue;
-}
-.container2{
-    margin: 10px 100px 10px 100px;
-    padding: 20px;
-    background-color:skyblue;
-}
 body{
-    color:black;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin:20px 100px ;
+    
+}
+img{
+    width: 150px ;
+    height:150px ;
+
+}
+hr{
+    border-top: 5px dotted;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #introduction{
     text-align: center;
-}
-#name{
-    font-size: larger;
-}
-li{
-    text-align:left;
-    
-}
-#line-1{
-   border-top: 5px dotted;
-}
-#line-2{
-    border-top: 5px dotted;
-    width: 1170px;
-    margin-left: 103px;
-    
-}
-#line-3{
-    border-top: 5px dotted;
-}
-#Hobbies{
-    text-align: center;
-}
-#Favourites{
-    text-align: center;
+
 }
 h2{
-    text-decoration: underline;font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 h3{
-    text-decoration: underline;font-size:30px;
+    text-align: center;
+    text-decoration: underline; 
 }
-h4{
-    text-decoration:underline ;font-size: 30px;
+
+#Hobbies{
+    padding: 20px;
+    background-color: antiquewhite;
 }
-h5{
-    text-decoration: underline;font-size: 30px;
-} 
-img{
-    height:500px ;
-    width: 400px;
+.favmovie{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
 }
-#link-1{
-    color: blue;font-size: 20px;
+#links{
+    text-align: center;
 }
-#link-2{
-    color: blue;font-size:20px ;
-}
+
+
