@@ -6,13 +6,21 @@
 .container{
     margin:10px 100px 10px 100px;
     padding: 20px;
-    background-color:black;
+    background-color:skyblue;
+}
+.container2{
+    margin: 10px 100px 10px 100px;
+    padding: 20px;
+    background-color:skyblue;
 }
 body{
-    color:skyblue;
+    color:black;
 }
 #introduction{
     text-align: center;
+}
+#name{
+    font-size: larger;
 }
 li{
     text-align:left;
@@ -23,6 +31,9 @@ li{
 }
 #line-2{
     border-top: 5px dotted;
+    width: 1265px;
+    margin-left: 103px;
+    
 }
 #line-3{
     border-top: 5px dotted;
