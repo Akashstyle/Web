@@ -5,36 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akash-Contact</title>
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
-    <P><strong>REGISTER FORM</strong></P>
-    <div style="background-color:red ;">
+    <div class="container">
+    <div id="register">
+    <h1>REGISTER FORM</h1>
+            <form action="/" method="post">
+                <label for="Your-name">Your-Name:</label><br>
+                <input type="text" name="Your-name" id="Your-name"><br>
+                <label for="Your-email">Your-Email ID:</label><br>
+                <input type="email" name="Your-email" id="Your-email"><br>
+                <label for="Your-password">Your-Password:</label><br>
+                <input type="password" name="Your-password" id="Your-password"><br>
+                <label for="Your-gender">Gender:</label>&nbsp;
+                <input type="radio" name="male" id="male">Male
+                <input type="radio" name="female" id="female">Female <br>
+                <label for="Age">Age:</label>
+                <input type="radio" name="Above" id="Above">Above 18
+                <input type="radio" name="Below" id="Below">Below 18 <br>
+               <p>Terms & Conditions:</p>
+               <input type="checkbox" name="i-agree" id="i-agree">I-Agree <br>
+               <button>Submit</button>
+            </form>
+</div>
+<div id="login">
+<h2>LOGIN-FORM</h2>
     <form action="/" method="post">
-        <label for="Your-name">Your-Name:</label><br>
-        <input type="text" name="Your-name" id="Your-name"><br>
         <label for="Your-email">Your-Email ID:</label><br>
-        <input type="email" name="Your-email" id="Your-email"><br>
-        <label for="Your-password">Your-Password:</label><br>
-        <input type="password" name="Your-password" id="Your-password"><br>
-        <label for="Your-gender">Gender:</label>&nbsp;
-        <input type="radio" name="male" id="male">Male
-        <input type="radio" name="female" id="female">Female <br>
-        <label for="Age">Age:</label>
-        <input type="radio" name="Above" id="Above">Above 18
-        <input type="radio" name="Below" id="Below">Below 18 <br>
-       <p>Terms & Conditions:</p>
-       <input type="checkbox" name="i-agree" id="i-agree">I-Agree <br>
-       <button>Submit</button>
-    </form>
-</div> <hr>
-<p><strong>LOGIN FORM</strong></p>
-<form action="/" method="post">
-    <label for="Your-email">Your-Email ID:</label><br>
-    <input type="Email" name="Your-Email" id="Your-Email"><br>
-    <label for="Your-Password">Your-Password:</label><br>
-    <input type="Password" name="Your-Password" id="Your-Password"><br>
-    <button>SUBMIT</button>
+        <input type="Email" name="Your-Email" id="Your-Email"><br>
+        <label for="Your-Password">Your-Password:</label><br>
+        <input type="Password" name="Your-Password" id="Your-Password"><br>
+        <button>SUBMIT</button>
+    </div>
+    </div>
+
 </form>
+</div>
    
 </body>
 </html>
