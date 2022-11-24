@@ -46,5 +46,9 @@ h3{
 #links{
     text-align: center;
 }
+#introduction{
+    position: sticky;
+    top: 15px;
+}
 
 

@@ -1,0 +1,36 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+#register{
+   text-align: left;
+   margin-left: 300px;
+   margin-top: 60px;
+}
+
+#login{
+    float: right;
+    margin-right: 300px;
+    margin-top:-315px ;
+    
+}
+.vertical{
+    border-left: 1px solid black;
+    height: 100%;
+    position:absolute;
+    left: 50%;
+
+}
+
