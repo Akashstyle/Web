@@ -59,8 +59,8 @@ input{
     border-radius:15px ;
     margin-bottom:15px ;
 }
-#button2{
-    padding:20px ;
+button{
+    padding:10px ;
 }
 #languages{
     margin-top: 20px;
