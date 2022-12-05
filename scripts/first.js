@@ -9,13 +9,13 @@ let modulo = x%y;
 console.log(addition,substraction,multiplication,division,modulo);
 //logical operators
 //And operator
-let Number = 17;
-let number = 22;
-console.log(Number>number && Number<number);
+let number = 17;
+let number1 = 22;
+console.log(number>number1 && number<number1);
 //OR operator
-console.log(Number>number|| Number<number);
+console.log(number>number1|| number<number1);
 // NOT operator
-console.log(!(number>Number&& Number<number));
+console.log(!(number1>number&& number<number1));
 //comparision operators
 console.log(x<y,x>y,x==y,x<=y,x>=y);
 //Ternary operator

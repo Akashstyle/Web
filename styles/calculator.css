@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+}
+ .calci{
+        width: 350px;
+        height: 450px;  
+        border-radius: 28px;
+        margin-left: 550px;
+        margin-top:150px ; 
+        background-color:#ec0d32;
+    }
+    
+input{
+        width: 303px; 
+        height:60px;    
+        border-radius:27px;
+        font-size: 30px;
+        padding:10px;
+        margin-top: 30px;
+        margin-left: 22px;
+    
+    }
+
+button{
+        width: 50px;
+        height: 60px;
+        margin-left: 15px; 
+        border-radius: 60%;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
