@@ -1,5 +1,5 @@
 // mathematical operators
-let x = 5;
+/*let x = 5;
 let y = 7;
 let addition = x+y;
 let substraction = x-y;
@@ -26,7 +26,20 @@ console.log(x++);
 console.log(++x);
 console.log(--x);
 console.log(x--);
- console.log(x);
+ console.log(x);*/
+
+
+ let numArr =   [2,4,5,8,9,12];
+
+const result = numArr.map(key => key*5);
+console.log(result);
+
+const result1 = numArr.filter(one => one%2!=0);
+console.log(result1);
+
+const result2 = numArr.reduce((before,after)=>before+after,0);
+console.log(result2);
+
 
 
 
