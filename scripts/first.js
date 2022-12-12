@@ -1,5 +1,5 @@
 // mathematical operators
-/*let x = 5;
+let x = 5;
 let y = 7;
 let addition = x+y;
 let substraction = x-y;
@@ -19,19 +19,19 @@ console.log(!(number1>number&& number<number1));
 //comparision operators
 console.log(x<y,x>y,x==y,x<=y,x>=y);
 //Ternary operator
-let result = (8>9)?"true":"false";
+/*let result = (8>9)?"true":"false";
 console.log(result);
 // Increment and Decrement
 console.log(x++);
 console.log(++x);
 console.log(--x);
 console.log(x--);
- console.log(x);
+ console.log(x);*/
 
 
  let numArr = [2,4,5,8,9,12];
 
-const result = numArr.map(key => key*5);
+const result= numArr.map(key => key*5);
 console.log(result);
 
 const result1 = numArr.filter(one => one%2!=0);
@@ -50,14 +50,14 @@ console.log(inchesTocm(5));
 
 //arrow or anonymous function
 
-inchesTocm= (num)=>{
-    return num*2.54;
+ let inchesTocm1= (num)=>{
+   return num*2.54;
 }
 console.log(inchesTocm(5));
 
 //short hand function
 
-inchesTocm=(num)=>num*2.54;
+ let inchesTocm2=(num)=>num*2.54;
 console.log(inchesTocm(5));
 
 //converting cm to Inches
@@ -67,12 +67,12 @@ function cmToinches(num){
 }
 console.log(cmToinches(10));
 
-cmToinches= (num)=>{
+ let  cmToinches1= (num)=>{
     return num*0.393701;
 }
 console.log(cmToinches(10));
 
-cmToinches=(num)=>num*0.393701;
+let cmToinches2=(num)=>num*0.393701;
 console.log(cmToinches(10));
 
 //converting kilograms to grams
@@ -83,12 +83,12 @@ function kgTog(num){
 console.log(kgTog(17));
 
 
-kgTog= (num)=>{
+let  kgTog1= (num)=>{
     return num*0.001;
 }
 console.log(kgTog(17));
 
-kgTog=(num)=>num*0.001;
+let  kgTog2=(num)=>num*0.001;
 console.log(kgTog(17));
 
 
@@ -99,12 +99,12 @@ function gTokg(num){
 }
 console.log(gTokg(10));
 
-gTokg= (num)=>{
+let gTokg1= (num)=>{
     return num*1000;
 }
 console.log(gTokg(10));
 
-gTokg=(num)=>num*1000;
+let gTokg2=(num)=>num*1000;
 console.log(gTokg(10));
 
 //converting to centimeters to millimetres
@@ -114,12 +114,12 @@ function cmTomm(num){
 }
 console.log(cmTomm(17));
  
-cmTomm = (num)=>{
+let  cmTomm1 = (num)=>{
     return num*10;
 }
 console.log(cmTomm(10));
 
-cmTomm=(num)=>num*10;
+let  cmTomm2=(num)=>num*10;
 console.log(cmTomm(25));
 
 //converting millimeters to centimeters
@@ -129,17 +129,20 @@ function mmTocm(num){
 }
 console.log(mmTocm(20));
 
-mmTocm= (num)=>{
+let  mmTocm1= (num)=>{
     return num*0.1;
 }
 console.log(mmTocm(30));
 
-mmTocm=(num)=>num*0.1;
-console.log(mmTocm(40));*/
+let  mmTocm2=(num)=>num*0.1;
+console.log(mmTocm(40));
 
 let str = "good developers code";
-str.split(" ").forEach(word=>{
+console.log(str.toUpperCase());
+ str.split(" ").forEach(word=>{
     let lowerword=word.toLowerCase();
 console.log(lowerword[0].toUpperCase()+lowerword.slice(1));
 
 })
+
+

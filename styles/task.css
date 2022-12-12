@@ -4,62 +4,59 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 100px;
+.box{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border:solid 5px;
+    margin-top: 10px;
+    margin-left: 200px;
+    
 }
 
-.red-box{
-    height: 300px;
-    width: 300px;
+/* #green-box{
+    height: 350px;
+    width: 350px;
     float: left;
+    border:solid 5px;
     margin-top: 10px;
     margin-left: 10px;
-    background-color:#ff0000;
 }
 
-.green-box{
-    height: 300px;
-    width: 300px;
+#orange-box{
+    height: 350px;
+    width: 350px;
     float: left;
+    border:solid 5px;
     margin-top: 10px;
-    margin-left: 10px;
-    background-color:#008000;
+    margin-left: 10px;   
 }
 
-.orange-box{
-    height: 300px;
-    width: 300px;
+#black-box{
+    height: 350px;
+    width: 350px;
     float: left;
+    border:solid 5px;
     margin-top: 10px;
-    margin-left: 10px;
-    background-color:#ffa500;   
-}
-
-.black-box{
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color:#000;    
+    margin-left: 200px;   
 }
 
 .yellow-box{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     float: left;
+    border:solid 5px;
     margin-top: 10px;
-    margin-left: 10px;
-    background-color:#ffff00;  
+    margin-left: 10px;  
 }
 
 .blue-box{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     float: left;
+    border:solid 5px;
     margin-top: 10px;
-    margin-left: 10px;
-    background-color:#0000ff;   
+    margin-left: 10px;   
 }
 
 @media screen and (max-width: 786px) {
@@ -81,4 +78,4 @@
    .blue-box{
     clear: both;
    }
-}
+} */
